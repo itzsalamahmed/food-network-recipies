@@ -34,8 +34,9 @@ p{
     border-radius: 5px;
     padding: 10px 40px;
 }
-section .about-me{
+.about-me{
     background-image: url(images/shapes/Frame\ 57.jpg);
+    background-repeat: no-repeat;
 }
 #about-half{
     margin-left: 5%;
