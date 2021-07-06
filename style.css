@@ -1,7 +1,7 @@
 body{
     font-family: 'Poppins', sans-serif;
 }
-section{
+.flexible-container{
     display: flex;
     margin-left: 3%;
 }
@@ -41,4 +41,24 @@ p{
 #about-half{
     margin-left: 5%;
     padding-left: 5%;
+}
+.My-recipies{
+    display: block;
+    text-align: center;
+}
+.recipie-item{
+    text-align: center;
+}
+.food-item{
+    width: 29%;
+    box-shadow: 10px 10px 40px gray;
+    border-radius: 10px;
+    border: 10px;
+    margin-left: 10px;
+    margin-right: 10px;
+    margin-top: 10px;
+    padding: 10px;
+}
+.food-item img{
+    width: 100%;
 }
