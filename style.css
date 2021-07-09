@@ -63,21 +63,39 @@ p{
 .food-item img{
     width: 100%;
 }
+.social-media-item{
+    text-align: center;
+    margin-top: 50px;
+    margin-left: 4%;
+    margin-right: 4%;
+    margin-bottom: 50px;
+    box-shadow: 10px 10px 40px gray;
+    border-radius: 20px;
+}
+.social-media-item h1{
+    text-align: center;
+    color: #575757;
+    padding-top: 5%;
+}
 .social-media h1{
     color: black;
 }
 .social-media{
-    width: 300px;
     background-color: white;
     margin-left: 50px;
-    padding: 10px 5px;
-}
-.social-media-item{
-    text-align: center;
-    margin-top: 50px;
-    margin-bottom: 50px;
+    padding-bottom: 10px;
     display: flex;
 }
+.Youtube-Subscribers{
+    width: 30%;
+}
+.Instagram-Followers{
+    width: 30%;
+}
+.Dribbble-Shot{
+    width: 30%;
+}
+
 footer{
     text-align: center;
     background-color: black;
